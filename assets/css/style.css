@@ -364,3 +364,100 @@ section h2{
     border-radius:30px;
 
 }
+/*==============================
+        SOCIAL ICONS
+==============================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.social-icons a{
+
+    width:50px;
+
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    color:#fff;
+
+    font-size:22px;
+
+    transition:.35s;
+
+    text-decoration:none;
+
+}
+
+.social-icons a:hover{
+
+    transform:translateY(-8px) scale(1.1);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.25);
+
+}
+
+/* Facebook */
+
+.facebook{
+
+    background:#1877F2;
+
+}
+
+/* YouTube */
+
+.youtube{
+
+    background:#FF0000;
+
+}
+
+/* WhatsApp */
+
+.whatsapp{
+
+    background:#25D366;
+
+}
+
+/* Email */
+
+.email{
+
+    background:#ff9800;
+
+}
+
+/* Phone */
+
+.phone{
+
+    background:#0056d2;
+
+}
+
+@media(max-width:768px){
+
+.social-icons{
+
+justify-content:center;
+
+}
+
+}
